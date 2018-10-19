@@ -1,6 +1,63 @@
 :root {
-    --primary-color: #000000;
+    --primary-color: #4948a0;
+    --secondary-color: #489fa0;
+    --third-color: #12b45a;
+    --white: #fefefa;
+    --gold: #a07548;
 }
+
+.background {
+    background-color: var(--primary-color);
+}
+
+.heading-color {
+    color: var(--secondary-color);
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 0 10% 0;
+}
+
+.hold-anchor {
+    text-align: center;
+    margin: 10% 0;
+}
+
+.hold-anchor > p {
+    color: var(--white);
+}
+
+.anchor-tag {
+    color: var(--gold);
+    transition: color 0.7s ease;
+}
+
+.anchor-tag:hover,
+    .anchor-tag:focus {
+        color: var(--third-color);
+        text-decoration: none;
+    }
+
+hr {
+    border-top: 1px solid var(--secondary-color)!important;
+}
+
+.nav-link.disabled {
+    color: var(--white)!important;
+}
+
+.gold {
+    color: var(--gold);
+    transition: color 0.7s ease;
+    font-weight: 700;
+}
+
+.gold:hover, 
+    .gold:focus {
+        color: var(--third-color);
+    }
+
+
+
 
 .film1 {
     background: url(img/poster1.jpg) no-repeat center center ;
@@ -49,9 +106,6 @@
     -o-background-size: cover;
 }
 
-.gold {
-    color: #f0c36e;
-}
 
 .footer {
     position: absolute;
