@@ -1,9 +1,10 @@
 :root {
     --primary-color: #4948a0;
-    --secondary-color: #489fa0;
-    --third-color: #12b45a;
+    --secondary-color: #12b45a;
+    --third-color: #489fa0;
     --white: #fefefa;
     --gold: #a07548;
+    --black: #1a1617;
 }
 
 .background {
@@ -24,11 +25,18 @@
 
 .hold-anchor > p {
     color: var(--white);
+    font-weight: 700;
+}
+
+.anchor-flex {
+    display: flex;
+    justify-content: center;
 }
 
 .anchor-tag {
     color: var(--gold);
     transition: color 0.7s ease;
+    margin: 0 3%;
 }
 
 .anchor-tag:hover,
@@ -42,7 +50,7 @@ hr {
 }
 
 .nav-link.disabled {
-    color: var(--white)!important;
+    color: var(--third-color)!important;
 }
 
 .gold {
@@ -56,8 +64,64 @@ hr {
         color: var(--third-color);
     }
 
+ul.text-center.nav.flex-column.anchor-box {
+    margin: 0 0 5% 0;
+}
 
+.video > iframe {
+    width: 100%;
+    height: 250px;
+    margin: 0 0 -10px 0;
+    border: 5px solid var(--black);
+}
 
+.col-12.footer {
+    font-size: .6rem;
+}
+
+/* About page */
+.p-5 {
+    padding: 3rem!important;
+    text-align: center;
+}
+
+.about-me-content > h1 {
+    margin: 0 0 8% 0;
+}
+
+.about-me-content > p {
+    padding: 3% 0 3% 0;
+}
+
+/* Tablets  */
+@media only screen and (min-width: 768px) {
+    .video > iframe {
+        height: 690px;
+    }
+
+    .pt-4, .py-4 {
+        border-right: 2px dashed var(--gold);
+    }
+
+    .col-12.footer {
+        font-size: 1rem!important;
+    }
+
+    .about-me-content > h1 {
+        margin: 0 0 2% 0;
+    }
+
+    .about-me-content > p {
+        padding: 1% 0 1% 0;
+    }
+}
+
+/* Ipad pro */
+@media only screen and (min-width: 1024px) {
+    .video > iframe {
+        height: 1080px;
+    }
+}
 
 .film1 {
     background: url(img/poster1.jpg) no-repeat center center ;
