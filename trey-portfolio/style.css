@@ -7,8 +7,18 @@
     --black: #1a1617;
 }
 
+/* #4948a0; */
+
+html, body {
+    overflow-x: hidden!important;
+}
+
 .background {
     background-color: var(--primary-color);
+}
+
+.container-fluid {
+    padding: 0!important;
 }
 
 .heading-color {
@@ -16,6 +26,10 @@
     font-size: 1rem;
     text-align: center;
     margin: 0 0 10% 0;
+}
+
+h1.text-center.text-white.align-middle {
+    font-size: 2rem;
 }
 
 .hold-anchor {
@@ -72,7 +86,7 @@ ul.text-center.nav.flex-column.anchor-box {
     width: 100%;
     height: 250px;
     margin: 0 0 -10px 0;
-    border: 5px solid var(--black);
+    border: 10px solid var(--black);
 }
 
 .col-12.footer {
@@ -100,7 +114,8 @@ ul.text-center.nav.flex-column.anchor-box {
     }
 
     .pt-4, .py-4 {
-        border-right: 2px dashed var(--gold);
+        border-right: 5px dashed var(--gold);
+        z-index: 1;
     }
 
     .col-12.footer {
@@ -119,7 +134,7 @@ ul.text-center.nav.flex-column.anchor-box {
 /* Ipad pro */
 @media only screen and (min-width: 1024px) {
     .video > iframe {
-        height: 1080px;
+        height: 740px;
     }
 }
 
