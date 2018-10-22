@@ -136,7 +136,21 @@ ul.text-center.nav.flex-column.anchor-box {
 /* Ipad pro */
 @media only screen and (min-width: 1024px) {
     .video > iframe {
-        height: 740px;
+        height: 720px;
+    }
+}
+
+/* Large screen */
+@media only screen and (min-width: 1366px) {
+    .video > iframe {
+        height: 820px;
+    }
+}
+
+/* X-large screen */
+@media only screen and (min-width: 1920px) {
+    .video > iframe {
+        height: 1080px;
     }
 }
 
