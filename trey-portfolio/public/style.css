@@ -74,6 +74,13 @@ hr {
     border-top: 1px solid var(--secondary-color)!important;
 }
 
+.menu-desktop {
+    color: var(--white);
+    text-align: center;
+    margin: 7% 0 3% 0;
+    font-family: var(--paragraph-font);
+}
+
 li.nav-item > a {
     font-family: var(--paragraph-font);
 }
@@ -127,6 +134,7 @@ ul.text-center.nav.flex-column.anchor-box {
 
 span.pr-5.text-secondary {
     font-family: var(--paragraph-font);
+    padding-right: 0rem!important;
 }
 
 /* Tablets  */
@@ -363,28 +371,18 @@ p.font-weight-light {
     background-color: var(--bg-color)!important;
 }
 
-    .american-flag {
-    height: 200px;
-    width: 400px;
-    background: repeating-linear-gradient(
-    var(--red-color) 75px,
-    #ffffff 100px
-  );
-  margin: 5% 8%;
-  }
-  
-  .american-flag::before {
-    content: '';
-    background-color: var(--blue-color);
-    display: block;
-    height: 100px;
-    width: 150px;
-  }
+.pr-5, .px-5 {
+    padding-right: 0rem!important;
+}
 
   /* Ipad pro */
 @media only screen and (min-width: 1024px) {
     .video > iframe {
         height: 720px;
+    }
+
+    .pr-5, .px-5 {
+        padding-right: 3rem!important;
     }
 }
 
