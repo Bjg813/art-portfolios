@@ -1,9 +1,9 @@
 :root {
     --primary-color: var(--black);
-    --secondary-color: var(--teal);
+    --secondary-color: var(--purple);
     --third-color: var(--purple);
     --white: #f6f5f3;
-    --gold: #a07548;
+    --gold: var(--white);
     --black: #1a1617;
     --purple: #4948a0;
     --green: #12b45a;
@@ -39,6 +39,7 @@ html, body {
 h1.text-center.text-white.align-middle {
     font-size: 2rem;
     font-family: var(--heading-font);
+    font-weight: 700;
 }
 
 .hold-anchor {
@@ -78,7 +79,8 @@ hr {
     color: var(--white);
     text-align: center;
     margin: 7% 0 3% 0;
-    font-family: var(--paragraph-font);
+    font-family: var(--heading-font);
+    font-weight: 700;
 }
 
 li.nav-item > a {
@@ -398,12 +400,4 @@ p.font-weight-light {
     .video > iframe {
         height: 1080px;
     }
-}
-
-  
-
-
-  
-  
-  
-  
+} 
