@@ -171,53 +171,6 @@ span.pr-5.text-secondary {
     }
 }
 
-.film1 {
-    background: url("images/farida-profile-image.jpg") no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.film2 {
-    background: url(img/poster2.jpg) no-repeat center center ;
-    -webkit-background-size: cover ;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.film3 {
-    background: url(img/poster3.jpg) no-repeat center center ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.film4 {
-    background: url(img/poster4.jpg) no-repeat center center ;
-    -webkit-background-size: cover ;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-.film5 {
-    background: url(img/poster5.jpg) no-repeat center center ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.film6 {
-    background: url(img/poster6.jpg) no-repeat center center ;
-    -webkit-background-size: cover ;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
 /* Footer */
 .footer {
     position: absolute;
@@ -386,6 +339,53 @@ p.font-weight-light {
     padding-right: 0rem!important;
 }
 
+.film1 {
+    background: url("images/bts-daydream-image.JPG") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.film2 {
+    background: url('images/plastics-image.JPG') no-repeat center center ;
+    -webkit-background-size: cover ;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.film3 {
+    background: url('images/dij-osmo-image.JPG') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.film4 {
+    background: url('images/thanksgiving-image.JPG') no-repeat center center ;
+    -webkit-background-size: cover ;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.film5 {
+    background: url('images/daydream-music-video-image.JPG') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.film6 {
+    background: url("images/drizz-interview-image.JPG") no-repeat center center ;
+    -webkit-background-size: cover ;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
   /* Ipad pro */
 @media only screen and (min-width: 1024px) {
     .video > iframe {
@@ -404,7 +404,27 @@ p.font-weight-light {
     }
 
     .film1 {
-        background: url("images/farida-profile-image.jpg") no-repeat center center ;
+        background: url("images/bts-daydream-image.JPG") no-repeat center center ;
+    }
+
+    .film2 {
+        background: url("images/plastics-image.JPG") no-repeat center center ;
+    }
+
+    .film3 {
+        background: url("images/dij-osmo-image.JPG") no-repeat center center ;
+    }
+
+    .film4 {
+        background: url("images/thanksgiving-image.JPG") no-repeat center center ;
+    }
+
+    .film5 {
+        background: url("images/daydream-music-video-image.JPG") no-repeat center center ;
+    }
+
+    .film6 {
+        background: url("images/drizz-interview-image.JPG") no-repeat center center ;
     }
 }
 
