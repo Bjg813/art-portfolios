@@ -65,6 +65,15 @@ h1.text-center.text-white.align-middle {
     font-family: var(--paragraph-font);
 }
 
+.about-anchor {
+    color: var(--third-color)!important;
+}
+
+.about-anchor:hover,
+    .about-anchor:focus {
+        text-decoration: none;
+    }
+
 .anchor-tag:hover,
     .anchor-tag:focus {
         color: var(--third-color);
@@ -163,7 +172,7 @@ span.pr-5.text-secondary {
 }
 
 .film1 {
-    background: url(img/poster1.jpg) no-repeat center center ;
+    background: url("images/farida-profile-image.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -209,7 +218,7 @@ span.pr-5.text-secondary {
     -o-background-size: cover;
 }
 
-
+/* Footer */
 .footer {
     position: absolute;
     right: 0;
@@ -392,6 +401,10 @@ p.font-weight-light {
 @media only screen and (min-width: 1366px) {
     .video > iframe {
         height: 820px;
+    }
+
+    .film1 {
+        background: url("images/farida-profile-image.jpg") no-repeat center center ;
     }
 }
 
