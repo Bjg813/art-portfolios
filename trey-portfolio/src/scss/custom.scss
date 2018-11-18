@@ -14,6 +14,12 @@
     --paragraph-font: 'Lato', sans-serif;
     --blue-color: #3c365c;
     --red-color: #b21f2b;
+    --light-blue-color: #76728c;
+    --light-teal: #7ebbbc;
+    --light-purple: #7f7ebc;
+    --light-green: #59ca8b;
+    --light-yellow: #fdce67;
+    --light-pink: #ffd9df;
 }
 
 html, body {
@@ -340,51 +346,60 @@ p.font-weight-light {
 }
 
 .film1 {
-    background: url("images/bts-daydream-image.JPG") no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-color: var(--yellow);
 }
+
+.film1:hover, 
+    .film1:focus {
+        background-color: var(--light-yellow);
+        transition: color 0.7s ease;
+    }
 
 .film2 {
-    background: url('images/plastics-image.JPG') no-repeat center center ;
-    -webkit-background-size: cover ;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-color: var(--blue-color);
 }
+
+.film2:hover,
+    .film:focus {
+        background-color: var(--light-blue-color);
+        transition: color 0.7s ease;
+    }
 
 .film3 {
-    background: url('images/dij-osmo-image.JPG') no-repeat center center ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-color: pink;
 }
+
+.film3:hover,
+    .film3:focus {
+        background-color: var(--light-pink);
+    }
 
 .film4 {
-    background: url('images/thanksgiving-image.JPG') no-repeat center center ;
-    -webkit-background-size: cover ;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-.film5 {
-    background: url('images/daydream-music-video-image.JPG') no-repeat center center ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-color: var(--teal);
 }
 
-.film6 {
-    background: url("images/drizz-interview-image.JPG") no-repeat center center ;
-    -webkit-background-size: cover ;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+.film4:hover,
+    .film4:focus {
+        background-color: var(--light-teal);
+    }
+
+.film5 {
+    background-color: var(--purple);
 }
+
+.film5:hover,
+    .film5:focus {
+        background-color: var(--light-purple);
+    }
+
+.film6 {
+    background-color: var(--green);
+}
+
+.film6:hover,
+    .film6:focus {
+        background-color: var(--light-green);
+    }
 
   /* Ipad pro */
 @media only screen and (min-width: 1024px) {
@@ -404,27 +419,27 @@ p.font-weight-light {
     }
 
     .film1 {
-        background: url("images/bts-daydream-image.JPG") no-repeat center center ;
+        background-image: no-repeat center center;
     }
 
     .film2 {
-        background: url("images/plastics-image.JPG") no-repeat center center ;
+        background-image: no-repeat center center;
     }
 
     .film3 {
-        background: url("images/dij-osmo-image.JPG") no-repeat center center ;
+        background-image: no-repeat center center;
     }
 
     .film4 {
-        background: url("images/thanksgiving-image.JPG") no-repeat center center ;
+        background-image: no-repeat center center;
     }
 
     .film5 {
-        background: url("images/daydream-music-video-image.JPG") no-repeat center center ;
+        background-image: no-repeat center center;
     }
 
     .film6 {
-        background: url("images/drizz-interview-image.JPG") no-repeat center center ;
+        background-image: no-repeat center center;
     }
 }
 
@@ -434,3 +449,7 @@ p.font-weight-light {
         height: 1080px;
     }
 } 
+
+// Place custom css above import bootstrap
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
